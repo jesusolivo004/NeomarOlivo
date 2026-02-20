@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -18,7 +18,7 @@ namespace Jesus
                 Console.WriteLine("2. Salir");
                 Console.Write("Elegiste: ");
 
-                int opcionmenup;
+                int opcionmenup = 0;
                 try
                 {
                     opcionmenup = Convert.ToInt32(Console.ReadLine());
@@ -49,7 +49,7 @@ namespace Jesus
                         Console.WriteLine("2. O por el patio?");
                         Console.Write("Elige bien: ");
                         
-                        int opcionmenus;
+                        int opcionmenus = 0;
                         try
                         {
                             opcionmenus = Convert.ToInt32(Console.ReadLine());
@@ -96,7 +96,7 @@ namespace Jesus
                             Console.WriteLine("3. Ver caja");
                             Console.Write("Elige con cautela...: ");
                             
-                            int inte;
+                            int inte = 0;
                             try
                             {
                                 inte = Convert.ToInt32(Console.ReadLine());
@@ -156,7 +156,7 @@ namespace Jesus
                                 Console.WriteLine("3. Esperar y verlo a la cara");
                                 Console.Write("Elige: ");
                                 
-                                int inter;
+                                int inter = 0;
                                 try
                                 {
                                     inter = Convert.ToInt32(Console.ReadLine());
@@ -182,7 +182,7 @@ namespace Jesus
                                             Console.WriteLine("2. O Lo dejas vivir?");
                                             Console.Write("Es tu decision y la adrenalina corre por tus venas. Elige 1 o 2: ");
                                             
-                                            int interactuar;
+                                            int interactuar = 0;
                                             try
                                             {
                                                 interactuar = Convert.ToInt32(Console.ReadLine());
@@ -235,7 +235,7 @@ namespace Jesus
                                         Console.WriteLine("3. Rezar");
                                         Console.Write("Elige: ");
                                         
-                                        int intera;
+                                        int intera = 0;
                                         try
                                         {
                                             intera = Convert.ToInt32(Console.ReadLine());
@@ -271,7 +271,7 @@ namespace Jesus
                                                 Console.WriteLine("Necesitas un codigo!!!");
                                                 Console.Write("Escribe el codigo: ");
                                                 
-                                                int interac;
+                                                int interac = 0;
                                                 try
                                                 {
                                                     interac = Convert.ToInt32(Console.ReadLine());

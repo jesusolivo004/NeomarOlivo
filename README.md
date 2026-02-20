@@ -30,6 +30,8 @@ Most of my free time? Studying C#. Nothing to do? I write code.
 Ask me anything about C#. If I know it, I'll tell you. If I don't, I'll be honest.
 
 Hit me up if you want to talk code or opportunities.
+Mi canal:
+ https://youtube.com/shorts/f030roe7NNA?si=UkfvZID0m875YA92
 
 ---
 

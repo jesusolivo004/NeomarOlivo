@@ -30,6 +30,8 @@ No inflo mi currículum. Solo me encanta programar de verdad.
 Pregúntame lo que quieras sobre C#. Si lo sé, te respondo. Si no, soy honesto.
 
 Escríbeme si quieres hablar de código o oportunidades.
+Mi canal:
+ https://youtube.com/shorts/f030roe7NNA?si=UkfvZID0m875YA92
 
 ---
 

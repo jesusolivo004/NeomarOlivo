@@ -1,153 +1,137 @@
-Ingles:
-# 🏠 Investigate the House - Text Adventure Game
+# 🏠 Investigate the House / Investiga la Casa
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![Language](https://img.shields.io/badge/language-C%23-brightgreen)
-![Lines](https://img.shields.io/badge/lines-300%2B-orange)
+🇺🇸 *Text Adventure Game* | 🇪🇸 *Juego de Aventura de Texto*
+---
 
-## 📖 About the game
+## 🇺🇸 English
 
-"Investigate the House" is a text adventure game developed in C# from a Redmi 9A phone. You are a rookie investigator who must explore a mysterious house and uncover its secrets... including a mysterious antagonist named **Neomar**.
+### 📖 About the game
 
-Every decision you make will affect the story's development and can lead you to different endings. Can you discover the truth?
+**"Investigate the House"** is a text adventure game developed entirely in C# from a **Redmi 9A phone**.  
+You are a rookie investigator who must explore a mysterious house and uncover its secrets... including a mysterious antagonist named **Neomar**.
 
-## 🎮 Features
+Every decision you make will affect the story and can lead you to different endings.  
+Can you discover the truth?
 
-- ✅ **Multiple paths** - Your decisions change the story
-- ✅ **Inventory system** - You can collect items (bat, mysterious note)
-- ✅ **Different endings** - More than 5 different endings
-- ✅ **Original story** - Completely created by Neomar Olivo
-- ✅ **Unique characters** - Includes an antagonist with your name
-- ✅ **Surprises** - Unexpected events await you
+### 🎮 Features
 
-## 🚀 How to play
+- ✅ **Multiple paths** – Your decisions change the story
+- ✅ **Inventory system** – Collect items (bat, mysterious note)
+- ✅ **Different endings** – More than 5 unique endings
+- ✅ **Original story** – Completely created by Neomar Olivo
+- ✅ **Unique characters** – Includes an antagonist with your name
+- ✅ **Surprises** – Unexpected events await you
 
-1. At the start, choose "Play" in the main menu
-2. Make decisions by typing the option number (1, 2 or 3)
-3. Explore different paths to discover all endings
+### 🚀 How to play
+
+1. Choose "Play" in the main menu  
+2. Type the option number (1, 2 or 3)  
+3. Explore different paths to discover all endings  
 4. Try to survive and complete the mission!
 
-## 📋 Requirements
+### 📋 Requirements
 
-- **Operating system:** Windows, Linux, Mac, or any device with .NET
-- **Compiler:** .NET SDK or C# Shell (for Android)
-- **Space:** Less than 1 MB
-
-## 🛠️ Technologies used
-
-- C# .NET
-- Object-oriented programming
-- Lists and collections
-- Exception handling (try-catch)
-- Loops and conditionals
-
-## 🎯 What I learned making this game
-
-- Create interactive stories with code
-- Handle multiple paths and decisions
-- Implement a simple inventory system
-- Organize complex code (300+ lines)
-- Solve logic and structure problems
-
-## 👨‍💻 Author
-
-**Neomar Olivo** - Self-taught programmer, 15 years old from Venezuela 🇻🇪
-
-- 📱 Completely programmed on a Redmi 9A phone
-- 🔥 Motto: *"Never give up. Problems exist to be solved"*
-- 📧 Contact: [Your email here]
-- 🐙 GitHub: [github.com/jesusolivo004](https://github.com/jesusolivo004)
-
-## 📜 License
-
-This project is open source. If you use it, please credit the author.
+- **OS:** Windows, Linux, macOS, or any device with .NET  
+- **Compiler:** .NET SDK or C# Shell (Android)  
+- **Space:** Less than 1 MB  
 
 ---
 
-*"Can you discover the truth behind the house?"*
+## 🇪🇸 Español
 
-____________________________________________________________
-Español:
+### 📖 Sobre el juego
 
+**"Investiga la Casa"** es un juego de aventura de texto desarrollado completamente en C# desde un **teléfono Redmi 9A**.  
+Eres un investigador novato que debe explorar una casa misteriosa y descubrir sus secretos... incluyendo a un misterioso antagonista llamado **Neomar**.
 
- # 🏠 Investiga la Casa - Juego de Aventura de Texto
+Cada decisión que tomes afectará la historia y puede llevarte a diferentes finales.  
+¿Podrás descubrir la verdad?
 
-![Versión](https://img.shields.io/badge/versión-1.0-blue)
-![Lenguaje](https://img.shields.io/badge/lenguaje-C%23-brightgreen)
-![Líneas](https://img.shields.io/badge/líneas-300%2B-orange)
+### 🎮 Características
 
-## 📖 Sobre el juego
+- ✅ **Múltiples caminos** – Tus decisiones cambian la historia
+- ✅ **Sistema de inventario** – Puedes recoger objetos (bate, nota misteriosa)
+- ✅ **Diferentes finales** – Más de 5 finales distintos
+- ✅ **Historia original** – Creada completamente por Neomar Olivo
+- ✅ **Personajes únicos** – Incluye un antagonista con tu nombre
+- ✅ **Sorpresas** – Eventos inesperados te esperan
 
-"Investiga la Casa" es un juego de aventura de texto desarrollado en C# desde un teléfono Redmi 9A. Eres un investigador novato que debe explorar una casa misteriosa y descubrir sus secretos... incluyendo a un misterioso antagonista llamado **Neomar**.
+### 🚀 Cómo jugar
 
-Cada decisión que tomes afectará el desarrollo de la historia y puede llevarte a diferentes finales. ¿Podrás descubrir la verdad?
-
-## 🎮 Características
-
-- ✅ **Múltiples caminos** - Tus decisiones cambian la historia
-- ✅ **Sistema de inventario** - Puedes recoger objetos (bate, nota misteriosa)
-- ✅ **Diferentes finales** - Más de 5 finales distintos
-- ✅ **Historia original** - Creada completamente por Neomar Olivo
-- ✅ **Personajes únicos** - Incluye un antagonista con tu nombre
-- ✅ **Sorpresas** - Eventos inesperados te esperan
-
-## 🚀 Cómo jugar
-
-1. Al iniciar, elige "Jugar" en el menú principal
-2. Toma decisiones escribiendo el número de la opción (1, 2 o 3)
-3. Explora diferentes caminos para descubrir todos los finales
+1. Al iniciar, elige "Jugar" en el menú principal  
+2. Escribe el número de la opción (1, 2 o 3)  
+3. Explora diferentes caminos para descubrir todos los finales  
 4. ¡Intenta sobrevivir y completar la misión!
 
-## 📋 Requisitos
+### 📋 Requisitos
 
-- **Sistema operativo:** Windows, Linux, Mac, o cualquier dispositivo con .NET
-- **Compilador:** .NET SDK o C# Shell (para Android)
-- **Espacio:** Menos de 1 MB
+- **Sistema operativo:** Windows, Linux, Mac, o cualquier dispositivo con .NET  
+- **Compilador:** .NET SDK o C# Shell (para Android)  
+- **Espacio:** Menos de 1 MB  
 
-## 🛠️ Tecnologías utilizadas
+---
 
-- C# .NET
-- Programación orientada a objetos
-- Listas y colecciones
-- Manejo de excepciones (try-catch)
-- Bucles y condicionales
+## 🛠️ Technologies used / Tecnologías utilizadas
 
-## 🎯 Lo que aprendí haciendo este juego
+- C# .NET  
+- Object-Oriented Programming / Programación Orientada a Objetos  
+- Lists and collections / Listas y colecciones  
+- Exception handling (try-catch) / Manejo de excepciones  
+- Loops and conditionals / Bucles y condicionales  
 
-- Crear historias interactivas con código
-- Manejar múltiples caminos y decisiones
-- Implementar un sistema de inventario simple
-- Organizar código complejo (300+ líneas)
-- Resolver problemas de lógica y estructura
+## 🎯 What I learned / Lo que aprendí
 
-## 👨‍💻 Autor
+- Create interactive stories with code / Crear historias interactivas con código  
+- Handle multiple paths and decisions / Manejar múltiples caminos y decisiones  
+- Implement an inventory system / Implementar un sistema de inventario  
+- Organize complex code (400+ lines) / Organizar código complejo (400+ líneas)  
+- Solve logic and structure problems / Resolver problemas de lógica y estructura  
 
-**Neomar Olivo** - Programador autodidacta de 15 años desde Venezuela 🇻🇪
+---
 
-- 📱 Programado completamente en un teléfono Redmi 9A
-- 🔥 Lema: *"Nunca rendirse. Los problemas existen para resolverse"*
-- 📧 Contacto: [Tu correo aquí]
-- 🐙 GitHub: [github.com/jesusolivo004](https://github.com/jesusolivo004)
+## 📲 Installation / Instalación
 
-## 📜 Licencia
+### Android (APK)
+1. Download the APK from this folder: [`Investiga_la_casa-signed.apk`](./Investiga_la_casa-signed.apk)  
+2. Install it on your Android device  
+3. Play!  
 
+*Descarga el APK de esta carpeta: [`Investiga_la_casa-signed.apk`](./Investiga_la_casa-signed.apk)  
+Instálalo en tu Android y ¡juega!*
+
+### Windows / Linux / Mac (Source code)
+1. Clone the repository  
+2. Open the `.cs` file in any C# compiler (Visual Studio, C# Shell, VS Code)  
+3. Run and play!  
+
+---
+
+## 🎮 Controls / Controles
+
+- **Numbers 1, 2, 3** – Choose options / Elegir opciones  
+- **Any key** – Continue after messages / Continuar después de mensajes  
+
+---
+
+## 👨‍💻 Author / Autor
+
+**Neomar Olivo** – Self-taught programmer, 15 years old from Venezuela 🇻🇪  
+**Neomar Olivo** – Programador autodidacta de 15 años desde Venezuela 🇻🇪  
+
+- 📱 **Built entirely on a Redmi 9A phone** / Programado completamente en un teléfono Redmi 9A  
+- 🔥 **Motto / Lema:** *"Never give up. Problems exist to be solved."* / *"Nunca rendirse. Los problemas existen para resolverse."*  
+- 📧 Contact / Contacto:jesusolivo004@gmail
+comuí]  
+- 🐙 GitHub: [github.com/jesusolivo004](https://github.com/jesusolivo004)  
+
+---
+
+## 📜 License / Licencia
+
+This project is open source. If you use it, please credit the author.  
 Este proyecto es de código abierto. Si lo usas, por favor da crédito al autor.
 
 ---
 
-*"¿Podrás descubrir la verdad detrás de la casa?"*
-
- # 🏠 Investiga la Casa
-
-Juego de terror en texto creado por Neomar Olivo (15 años) desde un teléfono Redmi 9A.
-
-## 📲 Instalación
-- Descarga el APK: `Investiga_la_casa-signed.apk`
-- Instálalo en tu Android
-- ¡Juega!
-
-## 🎮 Controles
-Solo números: 1, 2 o 3 para elegir opciones.
-
-## 📜 Historia
-Eres un investigador novato que debe explorar una casa misteriosa...
+> *"Can you discover the truth behind the house?"*  
+> *"¿Podrás descubrir la verdad detrás de la casa?"*

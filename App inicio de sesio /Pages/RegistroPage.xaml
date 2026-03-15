@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.Pages.RegistroPage"
+             Title="Registro de Usuario"
+             BackgroundColor="#F5F5F5">
+    
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            
+            <!-- Título -->
+            <Label Text="CREAR CUENTA" 
+                   FontSize="28" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   TextColor="#2196F3"
+                   Margin="0,20,0,20"/>
+            
+            <!-- Campo Nuevo Usuario -->
+            <Label Text="Usuario:" FontSize="14" TextColor="#333333"/>
+            <Entry x:Name="txtNuevoUsuario"
+                   Placeholder="Elige un nombre de usuario"
+                   BackgroundColor="White"
+                   HeightRequest="50"
+                   FontSize="16"/>
+            
+            <!-- Campo Nueva Contraseña -->
+            <Label Text="Contraseña:" FontSize="14" TextColor="#333333" Margin="0,10,0,0"/>
+            <Entry x:Name="txtNuevaContrasena"
+                   Placeholder="Crea una contraseña"
+                   IsPassword="True"
+                   BackgroundColor="White"
+                   HeightRequest="50"
+                   FontSize="16"/>
+            
+            <!-- Campo Confirmar Contraseña -->
+            <Label Text="Confirmar Contraseña:" FontSize="14" TextColor="#333333" Margin="0,10,0,0"/>
+            <Entry x:Name="txtConfirmarContrasena"
+                   Placeholder="Repite tu contraseña"
+                   IsPassword="True"
+                   BackgroundColor="White"
+                   HeightRequest="50"
+                   FontSize="16"/>
+            
+            <!-- CheckBox para mostrar contraseñas -->
+            <StackLayout Orientation="Horizontal" Margin="0,5,0,10">
+                <CheckBox x:Name="chkMostrarPass" 
+                          HorizontalOptions="Start"
+                          CheckedChanged="chkMostrarPass_CheckedChanged"/>
+                <Label Text="Mostrar contraseñas" 
+                       VerticalOptions="Center"
+                       TextColor="Gray"/>
+            </StackLayout>
+            
+            <!-- Botón Registrarse -->
+            <Button x:Name="btnRegistrarse"
+                    Text="REGISTRARSE"
+                    BackgroundColor="#28A745"
+                    TextColor="White"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    HeightRequest="50"
+                    CornerRadius="10"
+                    Margin="0,10,0,0"
+                    Clicked="btnRegistrarse_Clicked"/>
+            
+            <!-- Botón Volver al Login -->
+            <Button Text="← Volver al inicio de sesión"
+                    BackgroundColor="Transparent"
+                    TextColor="#2196F3"
+                    FontSize="14"
+                    Clicked="btnVolver_Clicked"/>
+            
+            <!-- Mensajes -->
+            <Label x:Name="lblMensaje"
+                   TextColor="Red"
+                   HorizontalOptions="Center"
+                   FontSize="14"
+                   IsVisible="False"
+                   Margin="0,10,0,0"/>
+            
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>

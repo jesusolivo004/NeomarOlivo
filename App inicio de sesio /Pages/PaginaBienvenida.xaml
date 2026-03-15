@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.Pages.PaginaBienvenida"
+             Title="Inicio"
+             BackgroundColor="#F5F5F5">
+    
+    <StackLayout Padding="20" Spacing="20">
+        
+        <!-- Mensaje de bienvenida -->
+        <Label x:Name="lblBienvenida"
+               FontSize="28"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="#2196F3"
+               Margin="0,40,0,20"/>
+        
+        <!-- Tarjeta de funciones -->
+        <Frame BorderColor="#CCCCCC"
+               CornerRadius="10"
+               Padding="20"
+               BackgroundColor="White">
+            <StackLayout Spacing="15">
+                <Label Text="📱 FUNCIONES DISPONIBLES" 
+                       FontSize="18" 
+                       FontAttributes="Bold" 
+                       TextColor="#333333"/>
+                
+                <Label Text="✓ Ver perfil" 
+                       FontSize="16" 
+                       TextColor="#666666"/>
+                <Label Text="✓ Configuración" 
+                       FontSize="16" 
+                       TextColor="#666666"/>
+                <Label Text="✓ Cerrar sesión" 
+                       FontSize="16" 
+                       TextColor="#666666"/>
+            </StackLayout>
+        </Frame>
+        
+        <!-- Botón para admin (NUEVO) -->
+        <Button x:Name="btnVerUsuarios"
+                Text="👑 VER USUARIOS REGISTRADOS 👑"
+                BackgroundColor="#FFA500"
+                TextColor="White"
+                FontSize="16"
+                FontAttributes="Bold"
+                HeightRequest="50"
+                CornerRadius="10"
+                IsVisible="false"
+                Clicked="btnVerUsuarios_Clicked"/>
+        
+        <!-- Botón Cerrar Sesión -->
+        <Button x:Name="btnCerrarSesion"
+                Text="CERRAR SESIÓN"
+                BackgroundColor="#DC3545"
+                TextColor="White"
+                FontSize="16"
+                HeightRequest="50"
+                CornerRadius="10"
+                Clicked="btnCerrarSesion_Clicked"/>
+        
+    </StackLayout>
+    
+</ContentPage>
